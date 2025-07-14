@@ -20,6 +20,7 @@
         <input type="text" name="phone"> <br/><br/>
 
         <button type="submit">Save</button>
+        <a href="{{ route('customers.index') }}">Back</a>
     </form>
 </body>
 </html>
